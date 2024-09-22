@@ -1,14 +1,16 @@
 # SetBERT
 Data and implementation for the SetBERT paper
+<!-- 
+- **/gpt_generated_data/**: GPT prompts to generate boolean data for finetune SetBERT
 
-- **/gpt_generated_data/**
-  - GPT prompts to generate boolean data for finetune SetBERT
+- **/pretrain/**: Finetune SetBERT on generated data
 
-- **/pretrain/**
-  - Finetune SetBERT on generated data
+- **/dpr/**: Train dense dual encoders for retrieval task
 
-- **/dpr/**
-  - Train dense dual encoders for retrieval task
+- **/quest/**: Dataset for retrieval task -->
 
-- **/quest/**
-  - Dataset for retrieval task
+📦 SetBERT/ 
+    ┣ 📂 gpt_generated_data/ # GPT prompts to generate boolean data for finetuning 
+    ┣ 📂 pretrain/ # Finetune SetBERT on generated data 
+    ┣ 📂 dpr/ # Train dense dual encoders for retrieval task 
+    ┗ 📂 quest/ # Dataset for retrieval task
