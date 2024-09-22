@@ -1,5 +1,6 @@
 # SetBERT
 This repo contains the original data and implementation of the paper "[SetBERT: Enhancing Retrieval Performance for Boolean Logic and Set Operation Queries](https://arxiv.org/abs/2406.17282)".
+
 📦 SetBERT/
 
     ┣ 📂 gpt_generated_data/ # GPT prompts to generate boolean data for finetuning 
