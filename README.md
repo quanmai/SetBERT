@@ -1,6 +1,5 @@
 # SetBERT
-Data and implementation for the SetBERT paper: https://arxiv.org/abs/2406.17282
-
+This repo contains the original data and implementation of the paper "[SetBERT: Enhancing Retrieval Performance for Boolean Logic and Set Operation Queries](https://arxiv.org/abs/2406.17282)".
 📦 SetBERT/
 
     ┣ 📂 gpt_generated_data/ # GPT prompts to generate boolean data for finetuning 
@@ -15,6 +14,7 @@ Data and implementation for the SetBERT paper: https://arxiv.org/abs/2406.17282
 ## Citation
 If you find this repository useful in your research, please consider citing our paper:
 
+```
 @misc{mai2024setbert,
     title={SetBERT: Enhancing Retrieval Performance for Boolean Logic and Set Operation Queries},
     author={Quan Mai and Susan Gauch and Douglas Adams},
@@ -23,3 +23,7 @@ If you find this repository useful in your research, please consider citing our 
     archivePrefix={arXiv},
     primaryClass={cs.CL}
 }
+```
+
+## Contact
+Please leave Github issues or contact Quan Mai `quanmai@uark.edu` for any questions.
